@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
-using NAudio.Wave;
 
 namespace RPG_game
 {
@@ -13,6 +13,13 @@ namespace RPG_game
     {
         public void Start()
         {
+
+
+            using (SoundPlayer player = new SoundPlayer($"{AppDomain.CurrentDomain.BaseDirectory}/sounds/music.wav"))
+            {
+                player.Play();
+            }
+
 
             string prompt = @"██████╗ ██████╗  █████╗  ██████╗  ██████╗ ███╗   ██╗███████╗     ██████╗ █████╗ ██████╗ ████████╗██╗██╗   ██╗███████╗
 ██╔══██╗██╔══██╗██╔══██╗██╔════╝ ██╔═══██╗████╗  ██║██╔════╝    ██╔════╝██╔══██╗██╔══██╗╚══██╔══╝██║██║   ██║██╔════╝
@@ -52,12 +59,15 @@ namespace RPG_game
 
         private void RunGame()
         {
+            SoundPlayer player = new SoundPlayer();
+            player.Stop();
             Clear();
             Console.Write("Mi legyen a karaktered neve: ");
             string karakterNev = Console.ReadLine();
             Console.Write("Válaszd ki a nemed (Férfi/Nő): ");
             string nem = Console.ReadLine();
             Start();
+            
         }
 
         private void ContinueGame()
