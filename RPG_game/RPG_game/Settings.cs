@@ -12,7 +12,7 @@ namespace RPG_game
         private int KivalasztottMenupont;
         private string[] Valasztasok;
         private string Prompt;
-        private int savedDifficulty;
+        public int savedDifficulty;
         public Settings(string prompt, string[] valasztasok) : base(prompt, valasztasok)
         {
             Prompt = prompt;

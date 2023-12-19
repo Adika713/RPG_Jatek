@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\adika\\Documents\\GitHub\\RPG_Jatek\\RPG_game\\RPG_game\\RPG_game.csproj": {}
+    "C:\\Users\\adika\\Desktop\\RPG_game\\RPG_game\\RPG_game.csproj": {}
   },
   "projects": {
-    "C:\\Users\\adika\\Documents\\GitHub\\RPG_Jatek\\RPG_game\\RPG_game\\RPG_game.csproj": {
+    "C:\\Users\\adika\\Desktop\\RPG_game\\RPG_game\\RPG_game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\adika\\Documents\\GitHub\\RPG_Jatek\\RPG_game\\RPG_game\\RPG_game.csproj",
+        "projectUniqueName": "C:\\Users\\adika\\Desktop\\RPG_game\\RPG_game\\RPG_game.csproj",
         "projectName": "RPG_game",
-        "projectPath": "C:\\Users\\adika\\Documents\\GitHub\\RPG_Jatek\\RPG_game\\RPG_game\\RPG_game.csproj",
+        "projectPath": "C:\\Users\\adika\\Desktop\\RPG_game\\RPG_game\\RPG_game.csproj",
         "packagesPath": "C:\\Users\\adika\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\adika\\Documents\\GitHub\\RPG_Jatek\\RPG_game\\RPG_game\\obj\\",
+        "outputPath": "C:\\Users\\adika\\Desktop\\RPG_game\\RPG_game\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\adika\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "System.Windows.Extensions": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -59,6 +63,9 @@
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App": {
+              "privateAssets": "none"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"

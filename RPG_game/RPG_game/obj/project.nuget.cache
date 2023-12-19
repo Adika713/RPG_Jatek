@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tZScGqtc+o/nM//jMcADb8ULlcIjGlUXzs0PQ+UTJNdr+x1EsFbAiltip1V/81335lh5UHBrinrhpxN5diR15g==",
+  "dgSpecHash": "qKBJSeBxj7/3G47w7EgAWxtFhA71taNqEGwLeYG6rlpsNhvz7QLKYKtUu8bj9Tm4PZhQlhcB5/OCrYJ7edeCuQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\adika\\Documents\\GitHub\\RPG_Jatek\\RPG_game\\RPG_game\\RPG_game.csproj",
+  "projectFilePath": "C:\\Users\\adika\\Desktop\\RPG_game\\RPG_game\\RPG_game.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\adika\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\adika\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512"
   ],
   "logs": []
